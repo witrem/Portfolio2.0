@@ -43,6 +43,10 @@
                         @if(signedInUser() && userCan('users-manage') && !userCan('settings-manage'))
                             <a href="{{ url('/settings/users') }}">@icon('users'){{ trans('settings.users') }}</a>
                         @endif
+                        <a>
+                        @include('partials.dark-mode-toggle')
+                        </a>
+
                     @endif
 
                     @if(!signedInUser())

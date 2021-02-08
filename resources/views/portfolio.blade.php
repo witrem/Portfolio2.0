@@ -25,7 +25,7 @@
          </div>
       </div>
    </section>
-   <section  class="section has-background-white is-medium">
+   <section id="presentation" class="section has-background-white is-medium">
       <div class="container is-small has-text-centered">
          <div class="columns">
             <div class="column is-half is-offset-one-quarter">
@@ -80,7 +80,7 @@
          </div>
       </div>
    </section>
-   <section  class="section has-background-light">
+   <section id="competences" class="section has-background-light">
       <div class="container  is-small has-text-centered">
          <div class="columns">
             <div class="column is-half is-offset-one-quarter">
@@ -205,8 +205,7 @@
       </div>
 </div>
 </section>
-<section class="section has-background-white is-medium">
-   <!-- <div class="container  is-small has-text-centered"> -->
+<section class="section has-background-white">
       <div class="columns">
          <div class="column is-half   is-offset-one-quarter has-text-centered">
             <h1 class="title is-spaced">Experiences & Formations</h1>
@@ -293,7 +292,7 @@
    <div class="columns is-centered">
       <div class="column is-half">
        <div class="has-background-white card fiche">
-         <div id="contact" class="card-content is-half is-flex is-horizontal-center">
+         <div id="contact_box" class="card-content is-half is-flex is-horizontal-center">
             <div class="columns is-centered is-desktop">
                <div class="column">
                   <div class="field">
@@ -354,7 +353,7 @@
       {!! form_end($form) !!}
    </div>
 </section>
-<section id="reseaux" class="section has-background-white is-medium has-text-centered">
+<section id="reseaux" class="section has-background-white">
    <div class="container is-small">
       <div class="card-content  is-horizontal-center">
          <div class="columns is-centered">
