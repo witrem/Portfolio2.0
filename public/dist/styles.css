@@ -629,7 +629,7 @@ table {
 }
 
 *:focus {
-	outline-style: dotted
+/*	outline-style: dotted */
 }
 
 html {
@@ -2592,8 +2592,8 @@ input[type=password]:focus,
 select:focus,
 textarea:focus,
 .fake-input:focus {
-	border-color: var(--color-primary);
-	outline: 1px solid var(--color-primary)
+/*	border-color: var(--color-primary);
+	outline: 1px solid var(--color-primary) */
 }
 
 .fake-input {
@@ -3051,7 +3051,7 @@ html[dir=rtl] .search-box button {
 .outline>input:active {
 	border: 0;
 	border-bottom: 2px solid #aaa;
-	outline: 0
+	outline: 0 
 }
 
 .image-picker img {

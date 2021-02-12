@@ -4,8 +4,7 @@
 <link rel="stylesheet" href="{{ versioned_asset('dist/bulma-tooltip.css') }}">
 <meta name="csrf-token" content="{{ csrf_token() }}">
 {!! NoCaptcha::renderJs() !!}
- <script type="text/javascript" src="{{ URL::asset('js/icon.js') }}"></script> 
-<script src="https://cdn.jsdelivr.net/npm/typeit@6.0.3/dist/typeit.min.js"></script>
+
 <noscript>Votre navigateur ne supporte pas JavaScript !</noscript>
 
 @extends('simple-layout')
@@ -21,7 +20,9 @@
       <section class="modal-card-body" id="contenu">
       </section>
       <footer class="modal-card-foot">
+         <div class="container has-text-centered">
          <div class="button is-info close is-rounded">OK</div>
+         </div>
       </footer>
    </div>
 </div>
@@ -47,4 +48,6 @@
 <script type="text/javascript" src="{{ URL::asset('/js/jquery.form.js') }}"></script>
 <script src="https://cdn.metroui.org.ua/v4/js/metro.min.js"></script> 
 <script type="text/javascript" src="{{ URL::asset('/js/portfolio.js') }}"></script>
+<script type="text/javascript" src="{{ URL::asset('js/icon.js') }}"></script> 
+<script src="https://cdn.jsdelivr.net/npm/typeit@6.0.3/dist/typeit.min.js"></script>
 @stop

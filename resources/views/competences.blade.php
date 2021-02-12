@@ -24,19 +24,19 @@
             <div class="card-content is-flex is-horizontal-center">
                <div class="columns">
                   <div class="column">
-                     <figure class="image is-48x48 is-inline-block tooltip competence truc"
+                     <figure class="image is-48x48 is-inline-block tooltip competence"
                         data-tooltip="Git" data-id="1" ><img src="{{ asset('images/git.png') }}"></figure>
                      <figure class="image is-48x48 is-inline-block tooltip competence" data-id="9" data-tooltip="C#"><img
                         src="{{ asset('images/csharp.png') }}"></figure>
-                     <figure class="image is-48x48 is-inline-block tooltip competence truc" data-id="10" data-tooltip="Javascript"><img
+                     <figure class="image is-48x48 is-inline-block tooltip competence" data-id="10" data-tooltip="Javascript"><img
                         src="{{ asset('images/js.png') }}"></figure>
-                     <figure class="image is-48x48 is-inline-block tooltip competence truc" data-id="11" data-tooltip="PHP" ><img
+                     <figure class="image is-48x48 is-inline-block tooltip competence" data-id="11" data-tooltip="PHP" ><img
                         src="{{ asset('images/php.png') }}"></figure>
-                     <figure class="image is-48x48 is-inline-block  tooltip competence truc" data-id="12" data-tooltip="Java" ><img
+                     <figure class="image is-48x48 is-inline-block  tooltip competence" data-id="12" data-tooltip="Java" ><img
                         src="{{ asset('images/java.png') }}"></figure>
-                     <figure class="image is-48x48 is-inline-block tooltip competence truc" data-id="16" data-tooltip="HTML" ><img
+                     <figure class="image is-48x48 is-inline-block tooltip competence" data-id="16" data-tooltip="HTML" ><img
                         src="{{ asset('images/html.png') }}"></figure>
-                     <figure class="image is-48x48 is-inline-block tooltip competence truc" data-id="17" data-tooltip="SQL" ><img
+                     <figure class="image is-48x48 is-inline-block tooltip competence" data-id="17" data-tooltip="SQL" ><img
                         src="{{ asset('images/sql.png') }}"></figure>
                   </div>
                </div>
@@ -125,7 +125,7 @@
    <!-- Ligne 3 -->
    <div class="columns">
       <div class="column has-text-centered">
-         <a href="{{ asset('cv/CV_AlexisLegeay.pdf') }}" id="cv" class="button is-medium" download="">
+         <a href="{{ asset('cv/CV_AlexisLegeay.pdf') }}" id="cv" class="button is-medium" target="_blank" rel="noopener noreferrer">
          <span class="icon">
          <i class="fas fa-file-pdf"></i>
          </span>

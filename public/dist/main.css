@@ -13126,11 +13126,12 @@ html.dark-mode .card-header-title {
 }
 
 .config_view {
+  cursor:pointer;
+  color:#fff;
+}
 
- /* display: inline-block;
-  padding: 13px;*/
-  color:#fff; 
-
+.config_view:hover {
+	text-decoration: underline;
 }
 
 
@@ -13311,6 +13312,11 @@ margin-top: 8vh;
   .image {
     display: block;
   }
+
+  textarea:focus, input:focus{
+    outline: none;
+}
+  
 
 @media screen and (max-width: 750px) {
   .competence {

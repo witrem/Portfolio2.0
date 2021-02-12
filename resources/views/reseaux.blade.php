@@ -14,7 +14,7 @@
          <div class="column is-one-quarter">
             <div class="card-image has-text-centered">
                <figure class="image is-128x128 is-inline-block">
-                  <a href="https://www.linkedin.com/in/alexis-legeay-6773aa140/">
+                  <a href="https://www.linkedin.com/in/alexis-legeay-6773aa140/" target="_blank" rel="noopener noreferrer">
                   <img class="is-rounded " src="{{ asset('images/linkedin.png') }}">
                   </a>
                </figure>
@@ -26,7 +26,7 @@
          <div class="column is-one-quarter">
             <div class="card-image has-text-centered">
                <figure class="image is-128x128 is-inline-block">
-                  <a href="https://github.com/witrem">
+                  <a href="https://github.com/witrem" target="_blank" rel="noopener noreferrer">
                   <img class="is-rounded " src="{{ asset('images/github.png') }}">
                   </a>
                </figure>
@@ -38,7 +38,7 @@
          <div class="column is-one-quarter">
             <div class="card-image has-text-centered">
                <figure class="image is-128x128 is-inline-block">
-                  <a href="https://t.me/joinchat/AAAAAFXEvWJ9_vhQ8_Z2xg">
+                  <a href="https://t.me/joinchat/AAAAAFXEvWJ9_vhQ8_Z2xg" target="_blank" rel="noopener noreferrer">
                   <img class="is-rounded " src="{{ asset('images/telegram.png') }}">
                   </a>
                </figure>
@@ -50,7 +50,7 @@
          <div class="column is-one-quarter">
             <div class="card-image has-text-centered">
                <figure class="image is-128x128 is-inline-block">
-                  <a href="https://discord.gg/VxYXsaa">
+                  <a href="https://discord.gg/VxYXsaa" target="_blank" rel="noopener noreferrer">
                   <img class="is-rounded " src="{{ asset('images/discord.png') }}">
                   </a>
                </figure>
