@@ -13284,6 +13284,11 @@ z-index: 4;
 margin-top: 8vh;
 }
 
+.icon-mobile {
+	color: #fff;
+}
+
+
     .tri-right {
       position: absolute;
       border-right: 100vw solid transparent;
@@ -13316,3 +13321,17 @@ margin-top: 8vh;
   }
   
 }
+
+@media screen and (max-width: 1000px) {
+
+	.icon-mobile {
+			text-align: start;
+			color: #444;
+			fill:#444 !important;
+		}
+
+	.config_view {
+		padding:0;
+	}
+		
+	}
