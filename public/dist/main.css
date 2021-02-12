@@ -2164,7 +2164,7 @@ fieldset[disabled] .button {
 	width: 100%
 }
 
-@media screen and (min-width:1024px) {
+/* @media screen and (min-width:1024px) {
 	.container {
 		max-width: 960px
 	}
@@ -2192,7 +2192,7 @@ fieldset[disabled] .button {
 	.container:not(.is-max-desktop):not(.is-max-widescreen) {
 		max-width: 1344px
 	}
-}
+} */
 
 .content li+li {
 	margin-top: .25em
@@ -13127,9 +13127,9 @@ html.dark-mode .card-header-title {
 
 .config_view {
 
-  display: inline-block;
-  padding: 13px;
-  color:#fff;
+ /* display: inline-block;
+  padding: 13px;*/
+  color:#fff; 
 
 }
 

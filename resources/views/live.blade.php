@@ -1,6 +1,5 @@
 @extends('simple-layout')
 <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-<body class="relative">
 @section('body')
     
     <section  class="section is-medium">
@@ -20,16 +19,12 @@
    
     <script src="https://embed.twitch.tv/embed/v1.js"></script>
 
-   
     <script type="text/javascript">
       new Twitch.Embed("twitch-embed", {
         width: "100%",
         height: "100%",
         channel: "witrem",
-      
-       
       });
     </script> 
 @stop
-    </body>
-  </html>
+ 
