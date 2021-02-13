@@ -15,7 +15,7 @@
             <div class="card-image has-text-centered">
                <figure class="image is-128x128 is-inline-block">
                   <a href="https://www.linkedin.com/in/alexis-legeay-6773aa140/" target="_blank" rel="noopener noreferrer">
-                  <img class="is-rounded " src="{{ asset('images/linkedin.png') }}">
+                  <img class="is-rounded " src="{{ asset('images/linkedin.png') }}" alt="Linkedin">
                   </a>
                </figure>
                <br>
@@ -27,7 +27,7 @@
             <div class="card-image has-text-centered">
                <figure class="image is-128x128 is-inline-block">
                   <a href="https://github.com/witrem" target="_blank" rel="noopener noreferrer">
-                  <img class="is-rounded " src="{{ asset('images/github.png') }}">
+                  <img class="is-rounded " src="{{ asset('images/github.png') }}" alt="Github">
                   </a>
                </figure>
                <br>
@@ -39,7 +39,7 @@
             <div class="card-image has-text-centered">
                <figure class="image is-128x128 is-inline-block">
                   <a href="https://t.me/joinchat/AAAAAFXEvWJ9_vhQ8_Z2xg" target="_blank" rel="noopener noreferrer">
-                  <img class="is-rounded " src="{{ asset('images/telegram.png') }}">
+                  <img class="is-rounded " src="{{ asset('images/telegram.png') }}" alt="Telegram">
                   </a>
                </figure>
                <br>
@@ -51,7 +51,7 @@
             <div class="card-image has-text-centered">
                <figure class="image is-128x128 is-inline-block">
                   <a href="https://discord.gg/VxYXsaa" target="_blank" rel="noopener noreferrer">
-                  <img class="is-rounded " src="{{ asset('images/discord.png') }}">
+                  <img class="is-rounded " src="{{ asset('images/discord.png') }}" alt="Discord">
                   </a>
                </figure>
                <br>

@@ -11,9 +11,8 @@
          <div class="columns">
             <div class="column">
                <div class="card-image has-text-centered">
-                  <figure class="image is-128x128 is-inline-block"
-                     style="background-color: #12415C; border-radius: 50%; padding: 30px;"><img
-                     src="{{ asset('images/eye.png') }}"></figure>
+                  <figure class="image is-128x128 is-inline-block icon-presentation"><img
+                     src="{{ asset('images/eye.png') }}" alt="Icone d'oeil"></figure>
                   <br><br>
                </div>
                <h5 class="title is-5 is-spaced">Curieux</h5>
@@ -22,9 +21,8 @@
             </div>
             <div class="column">
                <div class="card-image has-text-centered">
-                  <figure class="image is-128x128 is-inline-block"
-                     style="background-color: #12415C; border-radius: 50%; padding: 30px;"><img
-                     src="{{ asset('images/puzzle.png') }}"></figure>
+                  <figure class="image is-128x128 is-inline-block icon-presentation"><img
+                     src="{{ asset('images/puzzle.png') }}" alt="Icone de Puzzle"></figure>
                   <br><br>
                </div>
                <h5 class="title is-5 is-spaced">Organisé</h5>
@@ -33,9 +31,8 @@
             </div>
             <div class="column">
                <div class="card-image has-text-centered">
-                  <figure class="image is-128x128 is-inline-block"
-                     style="background-color: #12415C; border-radius: 50%; padding: 30px;"><img
-                     src="{{ asset('images/rocket.png') }}"></figure>
+                  <figure class="image is-128x128 is-inline-block icon-presentation"><img
+                     src="{{ asset('images/rocket.png') }}" alt="Icone de fusée"></figure>
                   <br><br>
                </div>
                <h5 class="title is-5 is-spaced">Autodidacte</h5>
@@ -46,7 +43,7 @@
          <div class="columns">
             <div class="column">
                <div class="notification news">
-                  <button class="delete"></button>
+                  <button class="delete" aria-hidden="true"></button>
                   <strong> [{{$news->page_date}}] - Nouvel article ! <br> {{ $news->name }}, Découvrez le <a href="https://test.alexislegeay.fr/books/{{$news->book_name}}/page/{{$news->slug}}">ici</a></strong>
                </div>
             </div>

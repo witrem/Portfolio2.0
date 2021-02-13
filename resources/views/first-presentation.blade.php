@@ -6,7 +6,7 @@
                   <div class="column is-half is-offset-one-quarter">
                      <h1 id="anim1" class="title is-2 is-spaced"></h1>
                      <div class="card-content is-flex is-horizontal-center">
-                        <figure class="image"><img src="{{ asset('images/profil.png') }}"></figure>
+                        <figure class="image"><img src="{{ asset('images/profil.png') }}" alt="Image de profil d'Alexis Legeay"></figure>
                      </div>
                   </div>
                </div>

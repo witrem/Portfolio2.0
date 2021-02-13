@@ -13317,6 +13317,11 @@ margin-top: 8vh;
     outline: none;
 }
   
+.icon-presentation {
+	background-color: #12415C;
+    border-radius: 50%; 
+	padding: 30px;
+}
 
 @media screen and (max-width: 750px) {
   .competence {

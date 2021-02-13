@@ -1,4 +1,5 @@
 <meta name="csrf-token" content="{{ csrf_token() }}">
+<meta name="description" content="Je suis Alexis Legeay, administrateur système et réseau étudiant à l'EPSI Nantes. Vous pouvez retrouver mon CV et les documents techniques que j'ai pu réaliser.">
 {!! NoCaptcha::renderJs() !!}
 
 <noscript>Votre navigateur ne supporte pas JavaScript !</noscript>
@@ -11,7 +12,7 @@
    <div class="modal-background"></div>
    <div class="modal-content">
       <header class="modal-card-head">
-         <p class="modal-card-title" id="titre"></p>
+         <p class="modal-card-title" aria-hidden="true" id="titre"></p>
       </header>
       <section class="modal-card-body" id="contenu">
       </section>
@@ -43,12 +44,12 @@
 <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 <link rel="stylesheet" href="{{ versioned_asset('dist/main.css') }}">
 <link rel="stylesheet" href="{{ versioned_asset('dist/bulma-tooltip.css') }}">
-<script crossorigin="anonymous" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-<script type="text/javascript" src="{{ URL::asset('/js/jquery.form.js') }}"></script>
-<script src="https://cdn.metroui.org.ua/v4/js/metro.min.js"></script> 
-<script type="text/javascript" src="{{ URL::asset('/js/portfolio.js') }}"></script>
-<script type="text/javascript" src="{{ URL::asset('js/icon.js') }}"></script> 
-<script src="https://cdn.jsdelivr.net/npm/typeit@6.0.3/dist/typeit.min.js"></script>
-<script type="text/javascript" src="{{ URL::asset('js/particles.js') }}"></script>
-<script type="text/javascript" src="{{ URL::asset('js/app_particles.js') }}"></script>
+<script crossorigin="anonymous" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" src="https://code.jquery.com/jquery-3.3.1.min.js" async></script>
+<script type="text/javascript" src="{{ URL::asset('/js/jquery.form.js') }}" async></script>
+<script src="https://cdn.metroui.org.ua/v4/js/metro.min.js" async></script> 
+<script type="text/javascript" src="{{ URL::asset('/js/portfolio.js') }}" async></script>
+<script type="text/javascript" src="{{ URL::asset('js/icon.js') }}" async></script> 
+<script src="https://cdn.jsdelivr.net/npm/typeit@6.0.3/dist/typeit.min.js" async></script>
+<script type="text/javascript" src="{{ URL::asset('js/particles.js') }}" defer></script>
+<script type="text/javascript" src="{{ URL::asset('js/app_particles.js') }}" defer></script>
 @stop
