@@ -46,12 +46,12 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
 <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 <link rel="stylesheet" href="{{ versioned_asset('dist/main.css') }}">
-<link rel="stylesheet" href="{{ versioned_asset('dist/bulma-tooltip.css') }}">
-<script crossorigin="anonymous" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" src="https://code.jquery.com/jquery-3.3.1.min.js" async></script>
-<script type="text/javascript" src="{{ URL::asset('/js/jquery.form.js') }}" async></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-tooltip@3.0.2/dist/css/bulma-tooltip.min.css">
+<script crossorigin="anonymous" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" src="https://code.jquery.com/jquery-3.3.1.min.js" defer></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.3.0/jquery.form.js" defer></script>
 <script src="https://cdn.metroui.org.ua/v4/js/metro.min.js" async></script> 
-<script type="text/javascript" src="{{ URL::asset('/js/portfolio.js') }}" async></script>
-<script type="text/javascript" src="{{ URL::asset('js/icon.js') }}" async></script> 
+<script type="text/javascript" src="{{ URL::asset('/js/portfolio.js') }}" defer></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js" async></script> 
 <script src="https://cdn.jsdelivr.net/npm/typeit@6.0.3/dist/typeit.min.js" async></script>
 <script type="text/javascript" src="{{ URL::asset('js/particles.js') }}" defer></script>
 <script type="text/javascript" src="{{ URL::asset('js/app_particles.js') }}" defer></script>
