@@ -1,5 +1,8 @@
 <meta name="csrf-token" content="{{ csrf_token() }}">
 <meta name="description" content="Je suis Alexis Legeay, administrateur système et réseau étudiant à l'EPSI Nantes. Vous pouvez retrouver mon CV et les documents techniques que j'ai pu réaliser.">
+<meta property="og:title" content="AlexisLegeay.fr" />
+<meta property="og:type" content="Portfolio" />
+<meta property="og:locale" content="fr_FR" />
 {!! NoCaptcha::renderJs() !!}
 
 <noscript>Votre navigateur ne supporte pas JavaScript !</noscript>

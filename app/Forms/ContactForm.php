@@ -11,18 +11,18 @@ class ContactForm extends Form
     {
         $this
         ->add('prenom', Field::TEXT, [
-            'rules' => 'required|min:3','attr' => ['class' => 'form-input input-group-text'],['aria-label' => 'Votre prénom']
+            'rules' => 'required|min:3','attr' => ['class' => 'form-input input-group-text']
         ])
         ->add('nom', Field::TEXT, [
-            'rules' => 'required|min:5','attr' => ['class' => 'form-input input-group-text'],['aria-label' => 'Votre nom']
+            'rules' => 'required|min:5','attr' => ['class' => 'form-input input-group-text']
         ])
         ->add('mail', Field::EMAIL, [
-            'rules' => 'required|min:5','attr' => ['class' => 'form-input input-group-text'],['aria-label' => 'Votre email']
+            'rules' => 'required|min:5','attr' => ['class' => 'form-input input-group-text']
         ])
         ->add('message', Field::TEXTAREA, [
-            'rules' => 'required|max:5000','attr' => ['class' => 'contact form-textarea'],['aria-label' => 'Votre  message']
+            'rules' => 'required|max:5000','attr' => ['class' => 'contact form-textarea']
         ])
-        ->add('Envoyer', 'submit', ['attr' => ['class' => 'button is-info send-form'],['aria-label' => 'Bouton envoyer']]);
+        ->add('Envoyer', 'submit', ['attr' => ['class' => 'button is-info send-form']]);
 
 
         $formOptions = [
