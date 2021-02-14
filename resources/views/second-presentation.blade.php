@@ -40,6 +40,7 @@
                </p>
             </div>
          </div>
+         @isset($news->page_date)
          <div class="columns">
             <div class="column">
                <div class="notification news">
@@ -48,5 +49,6 @@
                </div>
             </div>
          </div>
+         @endisset
       </div>
    </section>

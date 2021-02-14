@@ -28,7 +28,10 @@ class portfolio extends Controller
        ->join('pages as p','p.book_id','=','b.id')
        ->select('p.created_at AS page_date','p.slug','p.name','b.name as book_name')
        ->orderBy('p.created_at', 'DESC')->first();
-       $news->page_date = date('d/m/Y', strtotime($news->page_date));
+       if(isset($news->page_date)) {
+        $news->page_date = date('d/m/Y', strtotime($news->page_date));
+       }
+      
 
             return view('portfolio', compact('form','news','age'));   
     }
