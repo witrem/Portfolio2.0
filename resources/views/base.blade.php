@@ -14,7 +14,7 @@
     <!-- Styles and Fonts -->
     <link rel="stylesheet" href="{{ versioned_asset('dist/styles.css') }}">
     <link rel="stylesheet" media="print" href="{{ versioned_asset('dist/print-styles.css') }}">
-
+    <script data-ad-client="ca-pub-4978034671860415" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     @yield('head')
 
     <!-- Custom Styles & Head Content -->
