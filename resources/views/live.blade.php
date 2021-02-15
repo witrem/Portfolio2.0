@@ -5,8 +5,8 @@
     <section  class="section is-medium">
     <div class="container has-background-white card">
          <div class="columns is-mobile is-centered">
-            <div class="column is-half">
-               <h1 class="title is-spaced has-text-centered">On part en live ?</h1>
+            <div class="column is-half twitch_container">
+               <h1 class="twitch_title">On part en live ?</h1>
             </div>
          </div>
          <div class="columns is-mobile is-centered">

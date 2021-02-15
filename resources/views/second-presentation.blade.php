@@ -40,7 +40,7 @@
                </p>
             </div>
          </div>
-         @isset($news->page_date)
+       <!--  @isset($news->page_date) -->
          <div class="columns">
             <div class="column">
                <div class="notification news">
@@ -49,6 +49,6 @@
                </div>
             </div>
          </div>
-         @endisset
+       <!--   @endisset -->
       </div>
    </section>

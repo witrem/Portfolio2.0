@@ -350,15 +350,6 @@ ul {
 	padding: 0
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	font-size: 100%;
-	font-weight: 400
-}
 
 ul {
 	list-style: none
@@ -13222,28 +13213,6 @@ canvas {
   margin: 3vh !important;
 }
 
-#content {
-  flex: 1 0 auto;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-.relative {
-  position: relative;
-}
-
-#twitch-embed {
-  height: 80vh;
-  margin-left: 6vh;
-  margin-right: 6vh;
-  margin-bottom: 6vh;
-}
-
-
 .send-form {
 background: #009BE2 !important;
 box-shadow: 0px 9px 20px rgba(0, 155, 226, 0.24) !important;
@@ -13275,40 +13244,6 @@ margin: 5vh;
   font-family: poppins;
 }
 
-.p-rights {
-position: absolute;
-z-index: 1;
-font-size: .8em;
-margin-left: 10px;
-color: #e8e8e8;
-z-index: 4;
-margin-top: 8vh;
-}
-
-.icon-mobile {
-	color: #fff;
-}
-
-
-    .tri-right {
-      position: absolute;
-      border-right: 100vw solid transparent;
-      border-bottom: 13vh solid #12415C;
-      z-index: 3;
-    }
-
-    .tri-right2 {
-      position: absolute;
-      border-left: 100vw solid transparent;
-      border-bottom: 13vh solid #2b9adc;
-      z-index: 2;
-  }
-
-  .content figure {
-    margin-left: 2em;
-    margin-right: 2em;
-    text-align: center; }
-
   .image {
     display: block;
   }
@@ -13333,16 +13268,4 @@ margin-top: 8vh;
   
 }
 
-@media screen and (max-width: 1000px) {
 
-	.icon-mobile {
-			text-align: start;
-			color: #444;
-			fill:#444 !important;
-		}
-
-	.config_view {
-		padding:0;
-	}
-		
-	}

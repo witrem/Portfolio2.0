@@ -1,0 +1,93 @@
+#content {
+    flex: 1 0 auto;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .relative {
+    position: relative;
+  }
+  
+  #twitch-embed {
+    text-align:center;
+    height: 80vh;
+    margin-left: 6vh;
+    margin-right: 6vh;
+    margin-bottom: 6vh;
+  }
+  
+
+.p-rights {
+    position: absolute;
+    z-index: 1;
+    font-size: .8em;
+    margin-left: 10px;
+    color: #e8e8e8;
+    z-index: 4;
+    margin-top: 8vh;
+    }
+    
+    .icon-mobile {
+        color: #fff;
+    }
+    
+    
+        .tri-right {
+          position: absolute;
+          border-right: 100vw solid transparent;
+          border-bottom: 13vh solid #12415C;
+          z-index: 3;
+        }
+    
+        .tri-right2 {
+          position: absolute;
+          border-left: 100vw solid transparent;
+          border-bottom: 13vh solid #2b9adc;
+          z-index: 2;
+      }
+    
+      .content figure {
+        margin-left: 2em;
+        margin-right: 2em;
+        text-align: center; }
+
+        .config_view {
+            cursor:pointer;
+            color:#fff;
+          }
+          
+          .config_view:hover {
+              text-decoration: underline;
+          }
+
+    .twitch_title {
+    color: #20415A;
+    font-weight: 700;
+    line-height: 1.125;
+    font-size: 33px;
+    margin-top: 0.5em;
+    font-family: poppins;
+    word-break: break-word;
+    }
+
+    .twitch_container {
+        text-align:center;
+    }
+
+    @media screen and (max-width: 1000px) {
+
+        .icon-mobile {
+                text-align: start;
+                color: #444;
+                fill:#444 !important;
+            }
+    
+        .config_view {
+            padding:0;
+        }
+            
+        }
