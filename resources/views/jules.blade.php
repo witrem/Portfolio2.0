@@ -24,6 +24,7 @@
         width: "100%",
         height: "100%",
         channel: "ponce",
+        parent: ['alexislegeay.fr']
       });
     </script> 
 @stop
