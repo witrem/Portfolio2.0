@@ -272,6 +272,5 @@ Route::post('/competence', [
 
 
 Route::view('/live', 'live');
-Route::view('/jules', 'jules');
 
 Route::fallback('HomeController@getNotFound');
