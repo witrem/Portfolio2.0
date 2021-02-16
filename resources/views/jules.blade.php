@@ -17,7 +17,7 @@
      </div>
     </section>
    
-    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+    <script type="text/javascript" src="{{ URL::asset('js/sopra.js') }}"></script>
 
     <script type="text/javascript">
       new Twitch.Embed("twitch-embed", {
